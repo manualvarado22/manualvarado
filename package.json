@@ -1,0 +1,17 @@
+{
+  "name": "manualvarado",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "11ty": "npx @11ty/eleventy",
+    "11ty:serve": "npx @11ty/eleventy --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "moment": "^2.29.1"
+  }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+{%- include _head.html %}
+<body>
+	<header>
+		{%- include _main-navigation.html %}
+	</header>
+
+	<main class="main">
+		<div class="container">
+			<article id="{{ post-id }}" class="single-post">
+				<header class="single-post__header">
+					<h1 class="single-post__title">{{ titulo }}</h1>
+					
+					<div class="single-post__meta">
+						Publicado el
+						
+						<time class="single-post__fecha" datetime="{{ fecha }}">
+							{{ fecha | date: "%d-%m-%Y" }}
+						</time>
+					</div>
+				</header>
+
+				<div class="single-post__contenido">
+					{{ content | safe }}
+				</div>
+			</article>	
+		</div>
+	</main>
+
+	{%- include _footer.html %}
+</body>
+</html>

@@ -1,0 +1,17 @@
+[
+    {
+        "nombre": "Github",
+        "link": "https://github.com/manualvarado22",
+        "iconClass": "fab fa-github"
+    },
+    {
+        "nombre": "Instagram",
+        "link": "https://www.instagram.com/manualvarado22/",
+        "iconClass": "fab fa-instagram"
+    },
+    {
+        "nombre": "Email",
+        "link": "#?email=manualvarado22@gmail.com",
+        "iconClass": "far fa-envelope"
+    }
+]
