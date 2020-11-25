@@ -1,0 +1,22 @@
+---
+layout: base.liquid
+titulo: Tutoriales
+pagination:
+    data: collections.tutorial
+    size: 6
+    reverse: true
+    alias: tutoriales
+---
+<div class="pagina pagina--tutoriales">
+    <header class="pagina__header">
+        <h1 class="pagina__title">{{ titulo }}</h1>
+    </header>
+
+    <div class="pagina__contenido">
+        <ol class="tutoriales-lista">
+            {%- for tutorial in tutoriales %}
+                {%- include _tutoriales-lista.html %}
+            {%- endfor %}
+        </ol>
+    </div>
+</div>

@@ -1,0 +1,66 @@
+---
+layout: base.liquid
+pagination:
+    data: collections.tutorial
+    size: 3
+    reverse: true
+    alias: tutoriales
+---
+<section class="hero">
+	<h1 class="hero__title">
+		Hola. Hello. こんにちは!
+	</h1>
+
+	<div class="hero__content">
+		<p class="hero__paragraph">
+			Soy Manuel Alejandro Alvarado Montenegro. Manu para los amigos.
+		</p>
+		<p class="hero__paragraph">
+			Me dedico al desarrollo web, especialmente con WordPress.
+		</p>
+		<p class="hero__paragraph">
+			Además de programar, me gustan los idiomas, la música, el anime, las películas, leer, hacer ejercicio y algunas cosas más.
+		</p>
+	</div> <!-- .hero__content -->
+</section> <!-- .hero -->
+
+<section class="home-section servicios">
+	<h2 class="home-section__title servicios__title">Mis servicios</h2>
+
+	<div class="servicios__container">
+		{%- for servicio in serviciosList %}
+			<div class="servicio">
+				<div class="servicio__icon-container">
+					<i class="servicio__icon {{ servicio.iconClass }}"></i>
+				</div> <!-- servicio__icon-container -->
+
+				<h3 class="servicio__title">
+					{{ servicio.nombre }}
+				</h3>
+
+				<ul class="servicio__list">
+					{%- for categoria in servicio.lista %}
+						<li class="servicio__list-item servicio__list-item--{{ servicio.liClass }}">
+							{{ categoria }}
+						</li>
+					{%- endfor %}
+				</ul>
+			</div> <!-- servicio -->
+		{%- endfor %}
+	</div> <!-- .servcios__container -->
+</section> <!-- .servicios -->
+
+<section class="home-section tutoriales">
+	<h2 class="home-section__title tutoriales__title">Tutoriales</h2>
+
+	<p class="tutoriales__descripcion">
+		Además de las clases privadas, escribo tutoriales de programación, desarrollo web y WordPress.
+		Son completamente gratis, e intento explicar todo detallado para que puedas entender el por qué de cada cosa.
+	</p>
+
+	<div class="tutoriales__ultimos">
+		{%- for tutorial in tutoriales %}
+			{%- include _home-tutoriales.html %}
+		{%- endfor %}
+	</div> <!-- .tutoriales__ultimos -->
+</section> <!-- .tutoriales -->

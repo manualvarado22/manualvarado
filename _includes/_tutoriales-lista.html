@@ -1,0 +1,19 @@
+<li id="{{ tutorial.data.titulo | slug }}" class="tutoriales-lista-tutorial">
+    <h2 class="tutoriales-lista-tutorial__title">
+        <a href="{{ tutorial.url | url }}" class="tutoriales-lista-tutorial__link">
+            {{ tutorial.data.titulo }}
+        </a>
+    </h2> <!-- .tutoriales-lista-tutorial__title -->
+
+    <div class="tutoriales-lista-tutorial__meta">
+        Publicado el
+
+        <time class="tutoriales-lista-tutorial__fecha" datetime="{{ tutorial.date | fechaISO }}">
+            {{ tutorial.date | fechaLegible' }}
+        </time>
+    </div> <!-- .tutoriales-lista-tutorial__meta -->
+
+    <div class="tutoriales-lista-tutorial__excerpt">
+        {{ tutorial | excerpt }}
+    </div>  <!-- .tutoriales-lista-tutorial__contenido -->
+</li>

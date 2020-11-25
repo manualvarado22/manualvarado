@@ -1,0 +1,20 @@
+[
+	{
+		"nombre": "Desarrollo Web",
+		"lista": ["Sitios web", "E-Commerce", "WordPress", "PHP y Laravel", "PSD a página web"],
+		"iconClass": "far fa-file-code",
+		"liClass": "web-dev"
+	},
+	{
+		"nombre": "WordPress",
+		"lista": ["Sitios web", "Actualización", "Mantenimiento", "Desarrollo de temas", "Desarrollo de plugins"],
+		"iconClass": "fab fa-wordpress",
+		"liClass": "wordpress"
+	},
+	{
+		"nombre": "Clases Privadas",
+		"lista": ["Programación", "Desarrollo web", "WordPress", "PHP", "JavaScript"],
+		"iconClass": "fas fa-chalkboard-teacher",
+		"liClass": "clases"
+	}
+]

@@ -1,0 +1,27 @@
+<article id="{{ tutorial.data.titulo | slug }}" class="tutoriales__tutorial home-tutorial">
+    <h3 class="home-tutorial__title">
+        <a href="{{ tutorial.url | url }}" class="home-tutorial__link">
+            {{ tutorial.data.titulo }}
+        </a>
+    </h3> <!-- .home-tutorial__title -->
+
+    <div class="home-tutorial__meta">
+        Publicado el
+
+        <time class="home-tutorial__fecha" datetime="{{ tutorial.date | fechaISO }}">
+            {{ tutorial.date | fechaLegible' }}
+        </time>
+    </div> <!-- .home-tutorial__meta -->
+
+    <div class="home-tutorial__excerpt">
+        {{ tutorial | excerpt }}
+    </div>  <!-- .home-tutorial__contenido -->
+
+    <a 
+        href="{{ tutorial.url | url }}" 
+        class="home-tutorial__seguir-leyendo"
+        aria-label="Seguir leyendo {{ tutorial.data.titulo }}"
+    >
+        Seguir leyendo
+    </a>  <!-- .home-tutorial__seguir-leyendo -->
+</article> <!-- .tutoriales__tutorial.home-tutorial -->

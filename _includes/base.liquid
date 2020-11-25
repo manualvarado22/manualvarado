@@ -1,0 +1,20 @@
+---
+title: Manuel Alvarado
+---
+<!DOCTYPE html>
+<html lang="es">
+{%- include _head.html %}
+<body>
+	<header>
+		{%- include _main-navigation.html %}
+	</header>
+
+	<main class="main">
+		<div class="container">
+			{{ content | safe }}
+		</div>
+	</main>
+
+	{%- include _footer.html %}
+</body>
+</html>
