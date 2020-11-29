@@ -1,9 +1,17 @@
 <div class="main-navigation">
-	<div class="container">
+	<div class="main-navigation__container container">
+		<a href="{{ '/' | url }}" class="main-navigation__brand">
+			Manuel Alvarado
+		</a>
+
 		<nav class="main-navigation__nav">
-			<a href="{{ '/' | url }}" class="main-navigation__brand">
-				Manuel Alvarado
-			</a>
+			<button id="menu-button" class="main-navigation__menu-button menu-button">
+				<div class="menu-button__icon menu-icon">
+					<span class="menu-icon__barra menu-icon__barra--top"></span>
+					<span class="menu-icon__barra menu-icon__barra--middle"></span>
+					<span class="menu-icon__barra menu-icon__barra--bottom"></span>
+				</div>
+			</button>
 
 			<div class="main-navigation__menu">
 				<a href="{{ '/' | url }}" class="main-navigation__menu-item">
@@ -18,7 +26,7 @@
 				<a href="{{ '/contacto' | url }}" class="main-navigation__menu-item">
 					Contacto
 				</a>
-			</div> <!-- main-navigation__menu -->
-		</nav> <!-- main-navigation__nav -->
-	</div> <!-- container -->
-</div> <!-- main-navigation -->
+			</div> <!-- .main-navigation__menu -->
+		</nav> <!-- .main-navigation__nav -->	
+	</div> <!-- .main-navigation__container.container -->
+</div> <!-- .main-navigation -->
