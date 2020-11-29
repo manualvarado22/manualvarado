@@ -1,10 +1,17 @@
 <footer class="footer">
 	<div class="container">
 		<div class="footer__creditos">
-			Manuel A. Alvarado M. &middot; Hecho con cariño
-			<i class="fas fa-heart"></i>,
-			&lt;código&gt; y 
-			<a href="{{ 'https://www.11ty.dev/' | url }}" target="_blank">Eleventy</a>.
+    			Manuel A. Alvarado M. &middot; Hecho con cariño
+    			
+                <i class="fas fa-heart"></i>,
+    			
+                &lt;código&gt; y
+    			
+                <a href="{{ 'https://www.11ty.dev/' | url }}" target="_blank">Eleventy</a>.
+                
+                &middot; Alojado en
+
+                <a href="{{ 'https://www.netlify.com/' | url }}" target="_blank">Netlify</a>✨.
 		</div>
         <div class="footer__social-container">
             {%- for social in socialList %}
@@ -21,3 +28,5 @@
         </div>
 	</div> <!-- .container -->
 </footer>
+
+<script type="text/javascript" src="{{ '/assets/js/manualvarado.js' | url }}"></script>
