@@ -13,6 +13,7 @@ module.exports = function(eleventyConfig) {
     /* ARCHIVOS POR PASSTHROUGH COPY */
 
 	eleventyConfig.addPassthroughCopy('assets/css');
+    eleventyConfig.addPassthroughCopy('assets/js');
 	eleventyConfig.addPassthroughCopy('assets/fontawesome-free-5.15.1');
 
     /* FILTROS */
