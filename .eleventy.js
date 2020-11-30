@@ -43,7 +43,7 @@ module.exports = function(eleventyConfig) {
 
 /* FUNCIONES */
 
-function extraerExcerpt(articulo, clase) {
+function extraerExcerpt(articulo) {
     // Si el artículo no tiene la propiedad templateContent,
     // que es el contenido del post, se muestra una advertencia en 
     // la consola y se retorna null.
@@ -57,7 +57,7 @@ function extraerExcerpt(articulo, clase) {
     const contenido = articulo.templateContent;
 
     // Los separadores de inicio y fin para encontrar el excerpt.
-    const separadoresList = [
+    const separadoresLista = [
         { inicio: '<!-- Excerpt inicio -->', fin: '<!-- Excerpt fin -->' },
         { inicio: '<p>', fin: '</p>' }
     ];
@@ -68,17 +68,22 @@ function extraerExcerpt(articulo, clase) {
     // las etiquetas <!-- Excerpt inicio --> y <!-- Excerpt fin -->,
     // y si no se asigna, entonces el excerpt va a ser todo el primer
     // paragraph. Desde <p> hasta </p>.
-    separadoresList.some(separadores => {
+    separadoresLista.some(separadores => {
         const inicioPosicion = contenido.indexOf(separadores.inicio);
         const finPosicion = contenido.indexOf(separadores.fin);
 
         if (inicioPosicion !== -1 && finPosicion !== -1) {
-            excerpt = contenido.substring(inicioPosicion + separadores.inicio.length, finPosicion);
             // Si no hay etiquetas de inicio y fin de excerpt,
             // entonces el excerpt va a ser el primer <p>.
             // En ese caso, queremos que el excerpt este rodeado por
             // etiquetas <p> y </p>.
-            // excerpt = (separadores.inicio === '<p>') ? `<p>${excerpt}</p>` : excerpt;
+            const excerptPosiciones = (
+                separadores.inicio === '<p>' ?
+                { inicio: inicioPosicion, fin: finPosicion + separadores.fin.length } :
+                { inicio: inicioPosicion + separadores.inicio.length, fin: finPosicion }
+            );
+
+            excerpt = contenido.substring(excerptPosiciones.inicio, excerptPosiciones.fin);
 
             // Rompemos el loop de some si la funcion retorna true antes
             // de que termine de iterar en todos los elementos del array.
