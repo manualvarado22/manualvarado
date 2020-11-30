@@ -14,6 +14,6 @@ Hasta hace más o menos 8 meses estuve trabajando como escritor de contenido fre
 
 Después de cambiarme de carrera un par de veces, recibí mi título de TSU (Técnico Superior Universitario) en Análisis de Sistemas mención Redes (no sé nada de redes 😬).
 
-Además de la programación me gustan otras cosas como los idiomas 🎌, la música 🎸, el anime 👹🍙, las películas 📽🍿, hacer ejercicio 🏃‍♂️, salir a caminar 🚶‍♂️, leer 📖 y algunas cosas más 🐈✨.
+Además de la programación me gustan otras cosas como los idiomas 🎌, la música 🎸, el anime 👹🍙, los videojuegos 🎮, las películas 📽🍿, hacer ejercicio 🏃‍♂️, salir a caminar 🚶‍♂️, leer 📖 y algunas cosas más 🐈✨.
 
 Si estás interesada/o en alguno de mis servicios, tienes alguna duda, o quieres hablar conmigo; envíame un correo a [manualvarado22@gmail.com](#?email=manualvarado22@gmail.com) y te responderé.
