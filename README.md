@@ -8,7 +8,7 @@ La inspiración para usar Eleventy, así como buena parte del diseño y algunas 
 
 Por lo que los invito a revisar los artículos que ha escrito, así como revisar el código de su sitio web, porque creo que puede servir de mucho si estás usando Eleventy.
 
-Además de eso, [Tania Rascia y su sitio web](https://www.taniarascia.com/) también han sido de gran ayuda e inspiración, por lo que quería darle crédito y agradecerle por compartir lo que sabe.
+Además de eso, [Tania Rascia y su sitio web](https://www.taniarascia.com/) también han sido de gran ayuda e inspiración, por lo que quiero darle crédito y agradecerle por compartir lo que sabe.
 
 ## Contacto
 
