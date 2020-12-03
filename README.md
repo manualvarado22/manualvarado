@@ -1,5 +1,7 @@
 # manualvarado
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2fdd0363-ed91-4b4f-a46d-5891a629ddb1/deploy-status)](https://app.netlify.com/sites/manualvarado/deploys)
+
 Este es el código de mi sitio web personal hecho con [Eleventy](https://www.11ty.dev/).
 
 ## Diseño e inspiración
