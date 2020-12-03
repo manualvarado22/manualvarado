@@ -1,6 +1,14 @@
 // ¡Gracias!
 // https://keepinguptodate.com/pages/2019/06/creating-blog-with-eleventy/
 
+/* PLUGINS */
+
+// https://www.11ty.dev/docs/plugins/syntaxhighlight/
+// https://github.com/11ty/eleventy-plugin-syntaxhighlight
+const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
+
+/* DEPENDENCIAS */
+
 // Moment.js está instalado como una devDependency.
 const moment = require('moment');
 
@@ -10,11 +18,17 @@ const moment = require('moment');
 moment.locale('es-VE');
 
 module.exports = function(eleventyConfig) {
+    /* PLUGINS */
+
+    // https://github.com/11ty/eleventy-plugin-syntaxhighlight
+    eleventyConfig.addPlugin(pluginSyntaxHighlight);
+
     /* ARCHIVOS POR PASSTHROUGH COPY */
 
 	eleventyConfig.addPassthroughCopy('assets/css');
     eleventyConfig.addPassthroughCopy('assets/js');
 	eleventyConfig.addPassthroughCopy('assets/fontawesome-free-5.15.1');
+    eleventyConfig.addPassthroughCopy('tutoriales/imagenes');
 
     /* FILTROS */
 
