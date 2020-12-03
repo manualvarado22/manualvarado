@@ -63,7 +63,15 @@ Como este es nuestro primer programa, vamos a seguir la tradición y llamarlo `h
 
 Ahora nuestro editor de texto sabe que estamos escribiendo HTML. Ya podemos crear nuestra primera página web.
 
-En el editor de texto, escribe "Hola Mundo!" (sin las comillas) y guarda el archivo con `ctrl + s` o en `archivo -> guardar`.
+En el editor de texto, escribe "Hola mundo!" (sin las comillas).
+
+Deberías tener algo como esto:
+
+``` html
+Hola mundo!
+```
+
+Guarda el documento con `ctrl + s` o haciendo click en `archivo -> guardar`.
 
 En tu computadora, busca la carpeta en la que guardaste el archivo `hola-mundo.html`. Cuando lo consigas haz click derecho sobre el archivo, coloca el cursor sobre `abrir con` y elige tu navegador favorito.
 
@@ -75,13 +83,25 @@ Vamos a extender nuestra primera página web para mostrar otro texto debajo de "
 
 ## Extendiendo tu primera página web
 
-Abre el archivo `hola-mundo.html`, ubica el cursor al final de la línea en la que escribiste "Hola mundo!" y presiona enter dos veces para hacer dos saltos de línea.
+Abre el archivo `hola-mundo.html`, ubica el cursor al final de la línea en la que escribiste "Hola mundo!" y presiona la tecla `enter` dos veces para hacer dos saltos de línea.
 
 Si ves a la izquierda en tu editor de texto deberías estar en la línea 3.
 
 Ahora escribe cualquier cosa, como "Adios mundo!" sin las comillas.
 
-Igual que la primera vez, ubica el archivo `hola-mundo.html` en la carpeta donde lo guardaste, haz click derecho, ubica el cursor sobre `abrir con` y elige el navegador que prefieras.
+Tu documento debería verse así:
+
+``` html
+Hola mundo!
+
+Adios mundo!
+```
+
+Igual que la primera vez, guarda los cambios con `ctrl + s` o haciendo click en `archivo -> guardar` y ubica el archivo `hola-mundo.html` en la carpeta donde lo guardaste, haz click derecho, ubica el cursor sobre `abrir con` y elige el navegador que prefieras.
+
+<figure>
+    <img src="{{ '../imagenes/aprende-desarrollo-web-desde-cero-html-parte-1/aprende-html-desde-cero-parte-1-1.png' | url }}" alt="hola-mundo.html en el navegador" title="hola-mundo.html en el navegador">
+</figure>
 
 ¿Qué fue eso? 💩
 
@@ -94,6 +114,6 @@ navegador.
 
 ¿Pero qué pasa si queremos que un texto aparezca en una nueva línea? ¿Y si queremos que un texto sea más grande, o queremos una imagen, o una lista?
 
-Para eso HTML cuenta con etiquetas o tags que nos permiten decirle al navegador cómo queremos que se vea nuestra página web, y eso es lo que vamos a aprender en la siguiente parte.
+Para eso HTML cuenta con *etiquetas* o *tags* que nos permiten decirle al navegador cómo queremos que se vea nuestra página web, y eso es lo que vamos a aprender en la siguiente parte.
 
 Puedes tomarte un descanso para procesar todo lo que aprendiste 🧠✨ en esta parte y volver, o ir directamente a la segunda parte.
