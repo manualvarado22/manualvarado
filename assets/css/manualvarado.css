@@ -384,6 +384,11 @@ p {
 	width: 100%;
 }
 
+.single-post__contenido figcaption {
+	margin: 0.5rem 0;
+	text-align: center;
+}
+
 .single-post__contenido li {
 	margin-bottom: 1.5rem;
 }
