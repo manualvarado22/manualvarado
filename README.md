@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2fdd0363-ed91-4b4f-a46d-5891a629ddb1/deploy-status)](https://app.netlify.com/sites/manualvarado/deploys)
 
-Este es el código de mi sitio web personal [manualvarado.me](http://www.manualvarado.me/) hecho con [Eleventy](https://www.11ty.dev/).
+Este es el código de mi sitio web personal [manualvarado.me](https://www.manualvarado.me/) hecho con [Eleventy](https://www.11ty.dev/).
 
 ## Diseño e inspiración
 
