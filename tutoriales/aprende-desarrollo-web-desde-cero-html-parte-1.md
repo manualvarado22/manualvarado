@@ -244,9 +244,41 @@ Vamos a extender nuestra primera página web para mostrar otro texto debajo de "
 
 Abre el archivo `hola-mundo.html`, ubica el cursor al final de la línea en la que escribiste "Hola mundo!" y presiona la tecla `enter` dos veces para hacer dos saltos de línea.
 
+<figure>
+    <img 
+        src="{{ '../imagenes/aprende-desarrollo-web-desde-cero-html-parte-1/aprende-html-desde-cero-parte-1-editor-de-texto-salto-de-linea-1.png' | url }}" 
+        alt="Editor de texto salto de linea 1" 
+        title="Editor de texto salto de linea 1"
+    >
+</figure>
+
+<figure>
+    <img 
+        src="{{ '../imagenes/aprende-desarrollo-web-desde-cero-html-parte-1/aprende-html-desde-cero-parte-1-editor-de-texto-salto-de-linea-2.png' | url }}" 
+        alt="Editor de texto salto de linea 2" 
+        title="Editor de texto salto de linea 2"
+    >
+</figure>
+
 Si ves a la izquierda en tu editor de texto deberías estar en la línea 3.
 
+<figure>
+    <img 
+        src="{{ '../imagenes/aprende-desarrollo-web-desde-cero-html-parte-1/aprende-html-desde-cero-parte-1-editor-de-texto-salto-de-linea-3.png' | url }}" 
+        alt="Editor de texto salto de linea 3" 
+        title="Editor de texto salto de linea 3"
+    >
+</figure>
+
 Ahora escribe cualquier cosa, como "Adios mundo!" sin las comillas.
+
+<figure>
+    <img 
+        src="{{ '../imagenes/aprende-desarrollo-web-desde-cero-html-parte-1/aprende-html-desde-cero-nueva-linea-de-texto.png' | url }}" 
+        alt="Nueva linea de texto" 
+        title="Nueva linea de texto"
+    >
+</figure>
 
 Tu documento debería verse así:
 
@@ -260,7 +292,23 @@ Igual que la primera vez, guarda los cambios con `ctrl + s` o haciendo click en 
 
 <figure>
     <img 
-        src="{{ '../imagenes/aprende-desarrollo-web-desde-cero-html-parte-1/aprende-html-desde-cero-parte-1-1.png' | url }}" 
+        src="{{ '../imagenes/aprende-desarrollo-web-desde-cero-html-parte-1/aprende-html-desde-cero-parte-1-guardar-documento-2-1.png' | url }}" 
+        alt="Guardar documento HTML 1" 
+        title="Guardar documento HTML 1"
+    >
+</figure>
+
+<figure>
+    <img 
+        src="{{ '../imagenes/aprende-desarrollo-web-desde-cero-html-parte-1/aprende-html-desde-cero-parte-1-guardar-documento-2-2.png' | url }}" 
+        alt="Guardar documento HTML 2" 
+        title="Guardar documento HTML 2"
+    >
+</figure>
+
+<figure>
+    <img 
+        src="{{ '../imagenes/aprende-desarrollo-web-desde-cero-html-parte-1/aprende-html-desde-cero-parte-1-documento-html-en-el-navegador-2.png' | url }}" 
         alt="hola-mundo.html en el navegador" 
         title="hola-mundo.html en el navegador"
     >
